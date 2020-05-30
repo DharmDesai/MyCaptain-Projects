@@ -1,0 +1,7 @@
+filename = input("filename:")
+f_extns = filename.split(".")                                       #This splits the filename from the extension
+print ("The extension of the file is : " + repr(f_extns[-1]))
+
+Output:
+filename: mycatain.exe
+The extension of the file is : exe
